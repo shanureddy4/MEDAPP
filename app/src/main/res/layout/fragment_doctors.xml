@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:clickable="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TableRow
+                android:id="@+id/e1"
+                android:onClick="getDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/background"
+                android:tag="mlC8IFyTyLgINc75rsJWNSpnIL12"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:text="(Orthopedist)"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.321"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/no.ofratings1"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:inputType="number"
+                        android:padding="15dp"
+                        android:text="3325 ratings"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.868"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.9" />
+
+                    <TextView
+                        android:id="@+id/docdegree1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="MBBS,MS-Orthopaedics"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.284"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.676" />
+
+                    <TextView
+                        android:id="@+id/docname1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="Dr.J Surya Chandra"
+                        android:textColor="#000000"
+                        android:textSize="22dp"
+                        app:layout_constraintBottom_toTopOf="@+id/docdegree1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.244"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/no.ofratings1"
+                        app:layout_constraintHorizontal_bias="0.985"
+                        android:stepSize="0.1"
+                        android:rating="4.7"
+                        android:isIndicator="true"
+                        android:theme="@style/RatingBar"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.967" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/docimage1"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/doc1"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.881"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.266" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/e2"
+                android:onClick="getDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/background"
+                android:tag="qQr4ISbEkRWrfA2Eji1xssfzsBg1"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:text="(General Physician)"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar2"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.28"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/no.ofratings2"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:inputType="number"
+                        android:padding="15dp"
+                        android:text="2350 ratings"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.868"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.9" />
+
+                    <TextView
+                        android:id="@+id/docdegree2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="MBBS, MD-General Medicine"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar2"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.254"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.676" />
+
+                    <TextView
+                        android:id="@+id/docname2"
+                        android:layout_width="205dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="Dr.Tejaswi Konidela"
+                        android:textColor="#000000"
+                        android:textSize="22dp"
+                        app:layout_constraintBottom_toTopOf="@+id/docdegree2"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.23"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/no.ofratings2"
+                        app:layout_constraintHorizontal_bias="0.985"
+                        android:stepSize="0.1"
+                        android:rating="3.9"
+                        android:isIndicator="true"
+                        android:theme="@style/RatingBar"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.967" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/docimage2"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/doc2"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.881"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.266" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/e3"
+                android:onClick="getDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/background"
+                android:tag="ijt4ynpap4UuyFC6TY9PwAjpsng1"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:text="(Pulmonologist)"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar3"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.372"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/no.ofratings3"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:inputType="number"
+                        android:padding="15dp"
+                        android:text="1552 ratings"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.868"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.9" />
+
+                    <TextView
+                        android:id="@+id/docdegree3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="MBBS, MD-Pulmonary Medicine"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar3"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.268"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.676" />
+
+                    <TextView
+                        android:id="@+id/docname3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="Dr.Sravani"
+                        android:textSize="22dp"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/docdegree3"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.372"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/no.ofratings3"
+                        app:layout_constraintHorizontal_bias="0.985"
+                        android:stepSize="0.1"
+                        android:rating="4.3"
+                        android:isIndicator="true"
+                        android:theme="@style/RatingBar"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.967" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/docimage3"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/doc3"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.881"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.266" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/e4"
+                android:onClick="getDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/background"
+                android:tag="amGlTLAHQ0WpMJfhKJsiUzKevNg2"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:text="(Dentist)"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar4"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.372"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/no.ofratings4"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:inputType="number"
+                        android:padding="15dp"
+                        android:text="5545 ratings"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.868"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.9" />
+
+                    <TextView
+                        android:id="@+id/docdegree4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="BDS, MDS"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar4"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.385"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.676" />
+
+                    <TextView
+                        android:id="@+id/docname4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="Dr.Harshini"
+                        android:textSize="22dp"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/docdegree4"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.372"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/no.ofratings4"
+                        app:layout_constraintHorizontal_bias="0.985"
+                        android:stepSize="0.1"
+                        android:rating="4.5"
+                        android:isIndicator="true"
+                        android:theme="@style/RatingBar"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.967" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/docimage4"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/doc4"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.881"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.266" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/e5"
+                android:onClick="getDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/background"
+                android:tag="wGzRfNPdZuef5dVZv4yM01NmuzC3"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:text="(Neprologist)"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar5"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.289"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/no.ofratings5"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:inputType="number"
+                        android:padding="15dp"
+                        android:text="7201 ratings"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.868"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.9" />
+
+                    <TextView
+                        android:id="@+id/docdegree5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="MBBS, Fellowship in Nephrology"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar5"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.222"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.676" />
+
+                    <TextView
+                        android:id="@+id/docname5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="Dr.A.N. Priyatham Reddy"
+                        android:textColor="#000000"
+                        android:textSize="22dp"
+                        app:layout_constraintBottom_toTopOf="@+id/docdegree5"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.098"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/no.ofratings5"
+                        app:layout_constraintHorizontal_bias="0.985"
+                        android:stepSize="0.1"
+                        android:rating="3.8"
+                        android:isIndicator="true"
+                        android:theme="@style/RatingBar"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.967" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/docimage5"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/doc5"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.881"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.266" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </TableRow>
+            <TableRow
+                android:id="@+id/e6"
+                android:onClick="getDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/background"
+                android:tag="P4LbMQwDXXf0F4W3Y7xAqpFFc2E3"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:text="(Urologist)"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar6"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.372"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/no.ofratings6"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:inputType="number"
+                        android:padding="15dp"
+                        android:text="55525 ratings"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.868"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.9" />
+
+                    <TextView
+                        android:id="@+id/docdegree6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="MBBS, MS, MCh-Urology"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar6"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.385"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.676" />
+
+                    <TextView
+                        android:id="@+id/docname6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="Dr.Ginka Dileep"
+                        android:textSize="22dp"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/docdegree6"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.372"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/no.ofratings6"
+                        app:layout_constraintHorizontal_bias="0.985"
+                        android:stepSize="0.1"
+                        android:rating="3.0"
+                        android:isIndicator="true"
+                        android:theme="@style/RatingBar"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.967" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/docimage6"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/doc6"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.881"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.266" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/e7"
+                android:onClick="getDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/background"
+                android:tag="8Ekc3A3375eqN2pUhG5oHmy5SWp2"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:text="(General Physician)"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar7"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.372"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/no.ofratings7"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:inputType="number"
+                        android:padding="15dp"
+                        android:text="5421 ratings"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.868"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.9" />
+
+                    <TextView
+                        android:id="@+id/docdegree7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="MBBS"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar7"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.385"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.676" />
+
+                    <TextView
+                        android:id="@+id/docname7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="Dr.Amar Babu"
+                        android:textSize="22dp"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/docdegree7"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.372"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/no.ofratings7"
+                        app:layout_constraintHorizontal_bias="0.985"
+                        android:stepSize="0.1"
+                        android:rating="4.2"
+                        android:isIndicator="true"
+                        android:theme="@style/RatingBar"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.967" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/docimage7"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/doc7"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.881"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.266" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/e8"
+                android:onClick="getDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/background"
+                android:tag="tMvTstx0HEOz0nj79EPXBVmaFUs1"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:text="(Opthalmologist/Eye Surgeon)"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar8"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.372"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/no.ofratings8"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:inputType="number"
+                        android:padding="15dp"
+                        android:text="1225 ratings"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.868"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.9" />
+
+                    <TextView
+                        android:id="@+id/docdegree8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="MBBS, DNB-Opthalmology"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar8"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.385"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.676" />
+
+                    <TextView
+                        android:id="@+id/docname8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="Dr.M.Veerendra"
+                        android:textSize="22dp"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/docdegree8"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.372"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/no.ofratings8"
+                        app:layout_constraintHorizontal_bias="0.985"
+                        android:stepSize="0.1"
+                        android:rating="4.3"
+                        android:isIndicator="true"
+                        android:theme="@style/RatingBar"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.967" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/docimage8"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/doc8"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.881"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.266" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/e9"
+                android:onClick="getDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/background"
+                android:tag="PnaRiSFwKhYksC0dO0rdXHQfAHd2"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:text="(Neurologist)"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar9"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.372"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/no.ofratings9"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:inputType="number"
+                        android:padding="15dp"
+                        android:text="1356 ratings"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.868"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.9" />
+
+                    <TextView
+                        android:id="@+id/docdegree9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="MBBS, MS, MCh"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar9"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.385"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.676" />
+
+                    <TextView
+                        android:id="@+id/docname9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="Dr.R Ram Naik"
+                        android:textSize="22dp"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/docdegree9"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.372"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/no.ofratings9"
+                        app:layout_constraintHorizontal_bias="0.985"
+                        android:stepSize="0.1"
+                        android:rating="4.3"
+                        android:isIndicator="true"
+                        android:theme="@style/RatingBar"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.967" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/docimage9"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/doc9"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.881"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.266" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/e10"
+                android:onClick="getDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/background"
+                android:tag="UEcDuxKOU9WS44c1KfRNVbZCdX02"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:text="(Cardiologist)"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar10"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.372"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/no.ofratings10"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:fontFamily="@font/aller_bdlt"
+                        android:inputType="number"
+                        android:padding="15dp"
+                        android:text="753 ratings"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.868"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.9" />
+
+                    <TextView
+                        android:id="@+id/docdegree10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="MBBS, MD, DM-Cardiology"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/ratingBar10"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.385"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.676" />
+
+                    <TextView
+                        android:id="@+id/docname10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/aller_bd"
+                        android:text="Dr.Bala Chandra"
+                        android:textSize="22dp"
+                        android:textColor="#000000"
+                        app:layout_constraintBottom_toTopOf="@+id/docdegree10"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.372"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/no.ofratings10"
+                        app:layout_constraintHorizontal_bias="0.985"
+                        android:stepSize="0.1"
+                        android:rating="4.7"
+                        android:isIndicator="true"
+                        android:theme="@style/RatingBar"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.967" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/docimage10"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/doc10"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.881"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.266" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </TableRow>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</TableLayout>
