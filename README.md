@@ -14,3 +14,4 @@ MEDAPP is an android application provides communication between the patients and
  - Vigenere ( to encrypt the data in database)
  
  Please go through [Document](https://github.com/shanureddy4/MEDAPP/blob/master/MEDAPP_Document.pdf "Document") for detailed information.
+ Application [Screenshots](https://github.com/shanureddy4/MEDAPP/tree/master/Snippets "Screen shots")
