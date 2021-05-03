@@ -1,3 +1,9 @@
+# Steps to clone and use the application
+ - Install Android Studio.
+ - Create an account in Firebase.
+ - Enable Realtime database and Email/Password authentication.
+ - Establish firebase connection in android studio
+  
 # MEDAPP
 MEDAPP is an android application provides communication between the patients and doctors.
  - Encrypt patient details and prevent othres to see it.
