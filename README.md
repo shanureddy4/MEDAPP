@@ -1,5 +1,5 @@
 # MEDAPP
-MEDAPP is an android application which provide communication between the patients and doctors.
+MEDAPP is an android application provides communication between the patients and doctors.
  - Encrypt patient details and prevent othres to see it.
  - Shows necessary patient details to the doctors.
  - Details can be shown only if doctor enter valid key.
@@ -13,4 +13,4 @@ MEDAPP is an android application which provide communication between the patient
  - Firebase
  - Vigenere ( to encrypt the data in database)
  
- Please go through [Document](https://github.com/shanureddy4/MEDAPP/blob/master/Document.pdf "Document") for detailed information.
+ Please go through [Document](https://github.com/shanureddy4/MEDAPP/blob/master/MEDAPP_Document.pdf "Document") for detailed information.
